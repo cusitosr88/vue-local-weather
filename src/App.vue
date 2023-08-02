@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import WeatherReport from "./components/WeatherReport.vue";
+import GetLocation from "./components/GetLocation.vue"
 </script>
 
 <template>
-  <WeatherReport :coords="{ latitude: 0, longitude: 0 }"/>
+  <GetLocation/>
 </template>
 
 <style scoped>
