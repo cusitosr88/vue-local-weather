@@ -76,7 +76,7 @@ const formatDate = (dateString: Date): string => {
         </h1>
         <p>{{ data.location.name }} {{ data.location.region }}</p>
         <p>Precipitation: {{ data.current.precip_mm }}mm</p>
-        <p>{{ formatDate(data.location.localtime) }}</p>
+        <p data-testid="localtime">{{ formatDate(data.location.localtime) }}</p>
         <p>
           Wind: {{ data.current.wind_kph }} kph
           <wind-direction :degrees="data.current.wind_degree" />
