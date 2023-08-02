@@ -26,6 +26,10 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ```sh
 npm install
 ```
+We need to store the API key in a file at the root of your project called .env, with the following contents:
+```
+VITE_APP_WEATHER_API_KEY=Replace this with the key
+```
 
 ### Compile and Hot-Reload for Development
 
